@@ -1,4 +1,4 @@
-def run_analysis():# btc_dashboard_v8_3_final.py
+# btc_dashboard_v8_3_final.py
 import requests
 import time
 import math
@@ -668,4 +668,3 @@ with open(log_file, "a", newline="") as f:
     if write_headers:
         writer.writeheader()
     writer.writerow(log_data)
-return result
